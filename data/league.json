@@ -1,0 +1,407 @@
+{
+ "updated": "2026-10-26T10:36:48+00:00",
+ "league": {
+  "id": 29277,
+  "name": "Fyntasy League",
+  "scoring": "c"
+ },
+ "current_event": 8,
+ "current_event_finished": true,
+ "events": [
+  {
+   "id": 1,
+   "finished": true,
+   "deadline": "2026-08-21T17:30:00Z"
+  },
+  {
+   "id": 2,
+   "finished": true,
+   "deadline": "2026-08-28T17:30:00Z"
+  },
+  {
+   "id": 3,
+   "finished": true,
+   "deadline": "2026-09-04T17:30:00Z"
+  },
+  {
+   "id": 4,
+   "finished": true,
+   "deadline": "2026-09-12T12:30:00Z"
+  },
+  {
+   "id": 5,
+   "finished": true,
+   "deadline": "2026-09-18T17:30:00Z"
+  },
+  {
+   "id": 6,
+   "finished": true,
+   "deadline": "2026-10-10T10:00:00Z"
+  },
+  {
+   "id": 7,
+   "finished": true,
+   "deadline": "2026-10-17T10:00:00Z"
+  },
+  {
+   "id": 8,
+   "finished": true,
+   "deadline": "2026-10-23T17:30:00Z"
+  }
+ ],
+ "entries": [
+  {
+   "id": 151811,
+   "entry_id": 151124,
+   "team": "Nikku Za Biggu",
+   "first": "Nicolai",
+   "last": "Garder",
+   "short": "NG"
+  },
+  {
+   "id": 153434,
+   "entry_id": 152742,
+   "team": "PelleSquad",
+   "first": "Magnus",
+   "last": "Pedersen",
+   "short": "MP"
+  },
+  {
+   "id": 155029,
+   "entry_id": 154329,
+   "team": "Kaffe og Coke (Cola)",
+   "first": "Jacob",
+   "last": "Sørensen",
+   "short": "JS"
+  },
+  {
+   "id": 158709,
+   "entry_id": 157999,
+   "team": "Sonny´s lads",
+   "first": "Mathias",
+   "last": "Sørensen",
+   "short": "MS"
+  },
+  {
+   "id": 159291,
+   "entry_id": 158578,
+   "team": "crisx deez dudes",
+   "first": "Christoffer",
+   "last": "Trankjær",
+   "short": "CT"
+  },
+  {
+   "id": 159571,
+   "entry_id": 158858,
+   "team": "Kinder Mbeumo",
+   "first": "Andreas",
+   "last": "Halkjær",
+   "short": "AH"
+  }
+ ],
+ "history": {
+  "151124": [
+   {
+    "event": 1,
+    "points": 42,
+    "total": 42
+   },
+   {
+    "event": 2,
+    "points": 57,
+    "total": 99
+   },
+   {
+    "event": 3,
+    "points": 40,
+    "total": 139
+   },
+   {
+    "event": 4,
+    "points": 67,
+    "total": 206
+   },
+   {
+    "event": 5,
+    "points": 36,
+    "total": 242
+   },
+   {
+    "event": 6,
+    "points": 35,
+    "total": 277
+   },
+   {
+    "event": 7,
+    "points": 49,
+    "total": 326
+   },
+   {
+    "event": 8,
+    "points": 45,
+    "total": 371
+   }
+  ],
+  "152742": [
+   {
+    "event": 1,
+    "points": 47,
+    "total": 47
+   },
+   {
+    "event": 2,
+    "points": 67,
+    "total": 114
+   },
+   {
+    "event": 3,
+    "points": 57,
+    "total": 171
+   },
+   {
+    "event": 4,
+    "points": 22,
+    "total": 193
+   },
+   {
+    "event": 5,
+    "points": 59,
+    "total": 252
+   },
+   {
+    "event": 6,
+    "points": 44,
+    "total": 296
+   },
+   {
+    "event": 7,
+    "points": 40,
+    "total": 336
+   },
+   {
+    "event": 8,
+    "points": 48,
+    "total": 384
+   }
+  ],
+  "154329": [
+   {
+    "event": 1,
+    "points": 45,
+    "total": 45
+   },
+   {
+    "event": 2,
+    "points": 60,
+    "total": 105
+   },
+   {
+    "event": 3,
+    "points": 21,
+    "total": 126
+   },
+   {
+    "event": 4,
+    "points": 74,
+    "total": 200
+   },
+   {
+    "event": 5,
+    "points": 44,
+    "total": 244
+   },
+   {
+    "event": 6,
+    "points": 34,
+    "total": 278
+   },
+   {
+    "event": 7,
+    "points": 41,
+    "total": 319
+   },
+   {
+    "event": 8,
+    "points": 33,
+    "total": 352
+   }
+  ],
+  "157999": [
+   {
+    "event": 1,
+    "points": 41,
+    "total": 41
+   },
+   {
+    "event": 2,
+    "points": 59,
+    "total": 100
+   },
+   {
+    "event": 3,
+    "points": 25,
+    "total": 125
+   },
+   {
+    "event": 4,
+    "points": 40,
+    "total": 165
+   },
+   {
+    "event": 5,
+    "points": 37,
+    "total": 202
+   },
+   {
+    "event": 6,
+    "points": 51,
+    "total": 253
+   },
+   {
+    "event": 7,
+    "points": 63,
+    "total": 316
+   },
+   {
+    "event": 8,
+    "points": 41,
+    "total": 357
+   }
+  ],
+  "158578": [
+   {
+    "event": 1,
+    "points": 38,
+    "total": 38
+   },
+   {
+    "event": 2,
+    "points": 46,
+    "total": 84
+   },
+   {
+    "event": 3,
+    "points": 35,
+    "total": 119
+   },
+   {
+    "event": 4,
+    "points": 40,
+    "total": 159
+   },
+   {
+    "event": 5,
+    "points": 31,
+    "total": 190
+   },
+   {
+    "event": 6,
+    "points": 36,
+    "total": 226
+   },
+   {
+    "event": 7,
+    "points": 24,
+    "total": 250
+   },
+   {
+    "event": 8,
+    "points": 38,
+    "total": 288
+   }
+  ],
+  "158858": [
+   {
+    "event": 1,
+    "points": 35,
+    "total": 35
+   },
+   {
+    "event": 2,
+    "points": 39,
+    "total": 74
+   },
+   {
+    "event": 3,
+    "points": 56,
+    "total": 130
+   },
+   {
+    "event": 4,
+    "points": 55,
+    "total": 185
+   },
+   {
+    "event": 5,
+    "points": 45,
+    "total": 230
+   },
+   {
+    "event": 6,
+    "points": 62,
+    "total": 292
+   },
+   {
+    "event": 7,
+    "points": 59,
+    "total": 351
+   },
+   {
+    "event": 8,
+    "points": 48,
+    "total": 399
+   }
+  ]
+ },
+ "standings": [
+  {
+   "event_total": 48,
+   "last_rank": 1,
+   "league_entry": 159571,
+   "rank": 1,
+   "rank_sort": 1,
+   "total": 399
+  },
+  {
+   "event_total": 48,
+   "last_rank": 2,
+   "league_entry": 153434,
+   "rank": 2,
+   "rank_sort": 2,
+   "total": 384
+  },
+  {
+   "event_total": 45,
+   "last_rank": 3,
+   "league_entry": 151811,
+   "rank": 3,
+   "rank_sort": 3,
+   "total": 371
+  },
+  {
+   "event_total": 41,
+   "last_rank": 5,
+   "league_entry": 158709,
+   "rank": 4,
+   "rank_sort": 4,
+   "total": 357
+  },
+  {
+   "event_total": 33,
+   "last_rank": 4,
+   "league_entry": 155029,
+   "rank": 5,
+   "rank_sort": 5,
+   "total": 352
+  },
+  {
+   "event_total": 38,
+   "last_rank": 6,
+   "league_entry": 159291,
+   "rank": 6,
+   "rank_sort": 6,
+   "total": 288
+  }
+ ],
+ "matches": []
+}
