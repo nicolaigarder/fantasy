@@ -164,11 +164,11 @@ footer a { color: inherit; }
       <div class="card-head">
         <div>
           <h2>Pointudvikling</h2>
-          <p class="hint" id="chartHint">Samlet point efter hver gameweek</p>
+          <p class="hint" id="chartHint">Point efter den førende efter hver gameweek (0 = i front)</p>
         </div>
         <div class="seg" role="group" aria-label="Vælg visning" id="modes">
-          <button type="button" data-mode="total" aria-pressed="true">Samlet</button>
-          <button type="button" data-mode="gap" aria-pressed="false">Bag førende</button>
+          <button type="button" data-mode="gap" aria-pressed="true">Bag førende</button>
+          <button type="button" data-mode="total" aria-pressed="false">Samlet</button>
           <button type="button" data-mode="rank" aria-pressed="false">Placering</button>
           <button type="button" data-mode="gw" aria-pressed="false">Pr. GW</button>
         </div>
@@ -218,7 +218,7 @@ footer a { color: inherit; }
   const fmtKr = (n, cur) => `${n.toLocaleString("da-DK")} ${cur}`;
   const cssVar = (name) => getComputedStyle(root).getPropertyValue(name).trim();
 
-  const state = { ready: false, mode: "total", hidden: new Set(), focus: null };
+  const state = { ready: false, mode: "gap", hidden: new Set(), focus: null };
 
   async function load() {
     const bust = `?t=${Date.now()}`;
