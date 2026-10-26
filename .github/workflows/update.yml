@@ -1,0 +1,38 @@
+name: Opdater fantasy-data
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # hver time
+  workflow_dispatch:       # kør manuelt fra Actions-fanen
+  push:
+    paths:
+      - config.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Hent data fra FPL Draft
+        run: python3 scripts/fetch_data.py
+      - name: Commit hvis noget er ændret
+        run: |
+          git config user.name "fantasy-bot"
+          git config user.email "fantasy-bot@users.noreply.github.com"
+          # ignorer at kun tidsstemplet har ændret sig
+          if [ -n "$(git ls-files data/league.json)" ] && git diff --quiet -I'"updated"' -- data/league.json; then
+            echo "Ingen nye point"; exit 0
+          fi
+          git add data/league.json
+          git commit -m "Opdater data $(date -u +'%Y-%m-%d %H:%M')"
+          git push
