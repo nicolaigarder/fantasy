@@ -1,6 +1,6 @@
 {
   "_info": "Skriv de gameweeks hver person HAR betalt bøde for. Fx \"Halle\": [3, 4, 5]. GW'er uden bøde behøver ikke stå her.",
-  "Kaj": [1, 2, 3, 4, 5, 6, 7],
+  "Kaj": [1, 2, 3, 4, 5, 6, 7, 8],
   "Halle": [3, 4, 5, 6, 7, 8],
   "P": [1, 2, 3, 4, 5, 6, 7, 8],
   "Loffer": [1, 2, 3, 4, 5, 6, 7, 8],
