@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T23:18:30+00:00",
+ "updated": "2026-11-01T22:43:44+00:00",
  "league": {
   "id": 29277,
   "name": "Fyntasy League",
@@ -148,8 +148,8 @@
    },
    {
     "event": 9,
-    "points": 29,
-    "total": 400
+    "points": 39,
+    "total": 410
    }
   ],
   "152742": [
@@ -195,8 +195,8 @@
    },
    {
     "event": 9,
-    "points": 30,
-    "total": 414
+    "points": 47,
+    "total": 431
    }
   ],
   "154329": [
@@ -289,8 +289,8 @@
    },
    {
     "event": 9,
-    "points": 14,
-    "total": 371
+    "points": 30,
+    "total": 387
    }
   ],
   "158578": [
@@ -336,8 +336,8 @@
    },
    {
     "event": 9,
-    "points": 35,
-    "total": 323
+    "points": 40,
+    "total": 328
    }
   ],
   "158858": [
@@ -383,35 +383,35 @@
    },
    {
     "event": 9,
-    "points": 32,
-    "total": 431
+    "points": 35,
+    "total": 434
    }
   ]
  },
  "standings": [
   {
-   "event_total": 32,
+   "event_total": 35,
    "last_rank": 1,
    "league_entry": 159571,
    "rank": 1,
    "rank_sort": 1,
-   "total": 431
+   "total": 434
   },
   {
-   "event_total": 30,
+   "event_total": 47,
    "last_rank": 2,
    "league_entry": 153434,
    "rank": 2,
    "rank_sort": 2,
-   "total": 414
+   "total": 431
   },
   {
-   "event_total": 29,
+   "event_total": 39,
    "last_rank": 3,
    "league_entry": 151811,
    "rank": 3,
    "rank_sort": 3,
-   "total": 400
+   "total": 410
   },
   {
    "event_total": 39,
@@ -422,20 +422,20 @@
    "total": 391
   },
   {
-   "event_total": 14,
+   "event_total": 30,
    "last_rank": 4,
    "league_entry": 158709,
    "rank": 5,
    "rank_sort": 5,
-   "total": 371
+   "total": 387
   },
   {
-   "event_total": 35,
+   "event_total": 40,
    "last_rank": 6,
    "league_entry": 159291,
    "rank": 6,
    "rank_sort": 6,
-   "total": 323
+   "total": 328
   }
  ],
  "matches": []
