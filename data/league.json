@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:52:22+00:00",
+ "updated": "2026-11-28T01:54:32+00:00",
  "league": {
   "id": 29277,
   "name": "Fyntasy League",
@@ -178,8 +178,8 @@
    },
    {
     "event": 12,
-    "points": 0,
-    "total": 490
+    "points": 13,
+    "total": 503
    }
   ],
   "152742": [
@@ -240,8 +240,8 @@
    },
    {
     "event": 12,
-    "points": 0,
-    "total": 530
+    "points": 12,
+    "total": 542
    }
   ],
   "154329": [
@@ -302,8 +302,8 @@
    },
    {
     "event": 12,
-    "points": 0,
-    "total": 482
+    "points": 2,
+    "total": 484
    }
   ],
   "157999": [
@@ -364,8 +364,8 @@
    },
    {
     "event": 12,
-    "points": 0,
-    "total": 475
+    "points": 2,
+    "total": 477
    }
   ],
   "158578": [
@@ -426,8 +426,8 @@
    },
    {
     "event": 12,
-    "points": 0,
-    "total": 441
+    "points": 13,
+    "total": 454
    }
   ],
   "158858": [
@@ -488,59 +488,59 @@
    },
    {
     "event": 12,
-    "points": 0,
-    "total": 534
+    "points": 2,
+    "total": 536
    }
   ]
  },
  "standings": [
   {
-   "event_total": 0,
-   "last_rank": 1,
-   "league_entry": 159571,
-   "rank": 1,
-   "rank_sort": 1,
-   "total": 534
-  },
-  {
-   "event_total": 0,
+   "event_total": 12,
    "last_rank": 2,
    "league_entry": 153434,
-   "rank": 2,
-   "rank_sort": 2,
-   "total": 530
+   "rank": 1,
+   "rank_sort": 1,
+   "total": 542
   },
   {
-   "event_total": 0,
+   "event_total": 2,
+   "last_rank": 1,
+   "league_entry": 159571,
+   "rank": 2,
+   "rank_sort": 2,
+   "total": 536
+  },
+  {
+   "event_total": 13,
    "last_rank": 3,
    "league_entry": 151811,
    "rank": 3,
    "rank_sort": 3,
-   "total": 490
+   "total": 503
   },
   {
-   "event_total": 0,
+   "event_total": 2,
    "last_rank": 4,
    "league_entry": 155029,
    "rank": 4,
    "rank_sort": 4,
-   "total": 482
+   "total": 484
   },
   {
-   "event_total": 0,
+   "event_total": 2,
    "last_rank": 5,
    "league_entry": 158709,
    "rank": 5,
    "rank_sort": 5,
-   "total": 475
+   "total": 477
   },
   {
-   "event_total": 0,
+   "event_total": 13,
    "last_rank": 6,
    "league_entry": 159291,
    "rank": 6,
    "rank_sort": 6,
-   "total": 441
+   "total": 454
   }
  ],
  "matches": []
